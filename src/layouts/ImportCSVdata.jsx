@@ -23,7 +23,7 @@ function ImportCSVButton({ onImport }) {
         Import CSV
       </label>
       <input id="csv" className="hidden" type="file" accept=".csv" onChange={handleFileChange} />
-      {/* {file && <p>File uploaded: {file.name}</p>} */}
+
     </>
   );
 }

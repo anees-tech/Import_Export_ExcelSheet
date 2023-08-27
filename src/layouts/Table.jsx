@@ -73,7 +73,7 @@ function Table() {
           <tbody>
             {importedData.length > 0
                   ? importedData.map((rowData, rowIndex) => {
-                // Skip the first row (header row)
+               
                 if (rowIndex === 0) return null;
         
                 const isLast = rowIndex === importedData.length - 1;
