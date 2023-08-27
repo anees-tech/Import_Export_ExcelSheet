@@ -109,6 +109,11 @@ function Table() {
                         {date}
                       </p>
                     </td>
+                    <td className={classes}>
+                      <p variant="small" color="blue-gray" className="font-normal">
+                        {id}
+                      </p>
+                    </td>
                   </tr>
                 );
               })}
