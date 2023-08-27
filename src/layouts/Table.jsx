@@ -54,7 +54,7 @@ function Table() {
           <h2 className=' text-3xl'>Users</h2>
           <div className="ml-auto">
             <ImportCSVdata onImport={handleImport} />
-            <ExportCSVdata data={tableData} filename={'exported-Data.csv'} />
+            <ExportCSVdata data={importedData.length > 0 ? importedData : tableData} filename={'exported-Data.csv'} />
           </div>
         </div>
         <table className="w-full min-w-max table-auto text-left">
